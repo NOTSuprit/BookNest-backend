@@ -15,16 +15,16 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Airbnb API")
+                        .title("BookNest API")
                         .version("1.0")
-                        .description("API documentation for the Airbnb Backend clone application, Created By Aman Kumar"))
-                        .addSecurityItem(new SecurityRequirement().addList("BearerAuth"))
-                        .components(new Components()
-                                .addSecuritySchemes("BearerAuth",
-                                        new SecurityScheme()
-                                                .name("BearerAuth")
-                                                .type(SecurityScheme.Type.HTTP)
-                                                .scheme("bearer")
-                                                .bearerFormat("JWT")));
+                        .description("API documentation for the BookNest property booking platform backend."))
+                .addSecurityItem(new SecurityRequirement().addList("BearerAuth"))
+                .components(new Components()
+                        .addSecuritySchemes("BearerAuth",
+                                new SecurityScheme()
+                                        .name("BearerAuth")
+                                        .type(SecurityScheme.Type.HTTP)
+                                        .scheme("bearer")
+                                        .bearerFormat("JWT")));
     }
 }

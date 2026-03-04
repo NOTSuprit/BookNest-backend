@@ -6,10 +6,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class AirBnbApplication {
+public class BookNestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AirBnbApplication.class, args);
+		SpringApplication.run(BookNestApplication.class, args);
 	}
 
 }
