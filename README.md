@@ -2,7 +2,7 @@
 
 This application provides backend APIs for a hotel management system, including inventory management, booking flow, user authentication, and hotel browsing.
 
-![Image](https://github.com/user-attachments/assets/585136d9-05b5-4832-ad37-0a47d4678433)
+![Image](https://github.com/NOTSuprit/Hospital-Management-System/blob/main/src/main/resources/Screenshot%202026-03-05%20at%2015.46.24.png)
 
 ## Features
 
